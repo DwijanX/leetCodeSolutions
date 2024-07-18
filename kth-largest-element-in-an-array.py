@@ -3,4 +3,4 @@ class Solution(object):
         nums.sort()
         return nums[-k]
         
-print(Solution().findKthLargest([3,2,1,5,6,4], 2))  # 5
+print(Solution().findKthLargest([3,2,1,5,6,4], 2))  # 5 
