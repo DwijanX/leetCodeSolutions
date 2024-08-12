@@ -8,3 +8,10 @@ class Solution(object):
                 answer=answer*-1
         return answer
         
+
+
+number = 13  # 1101 in binary
+bits=pow(2,2)-1  # 0 0 1 1
+amountBits= number & bits      
+print(amountBits)
+print(bits)
